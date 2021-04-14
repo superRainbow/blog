@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "author": "rainbow",
     "scripts": {
-        "new": "cd blogs && touch  $(date +'%Y-%m-%d')-$FLIENAME.md",
+        "new": "cd blogs && touch  $(date +'%Y-%m-%d')-$FILENAME.md",
         "dev": "vuepress dev . --open --host \"localhost\"",
         "build": "vuepress build ."
     },
