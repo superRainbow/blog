@@ -4,6 +4,7 @@
     "author": "rainbow",
     "scripts": {
         "new": "cd blogs && touch  $(date +'%Y-%m-%d')-$FILENAME.md",
+        "push": "git add . && git commit -m 'add 文章' && git push",
         "dev": "vuepress dev . --open --host \"localhost\"",
         "build": "vuepress build ."
     },
