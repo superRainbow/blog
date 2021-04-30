@@ -56,6 +56,13 @@ module.exports = {
     },
     markdown: {
         lineNumbers: true,
+        linkify: true,
+        config: md => {
+            md.use(require('markdown-it-deflist'))
+        },
+        extendMarkdown: md => {
+            md.use(require('markdown-it-imsize'))
+        },
     },
     plugins: ['@vuepress/medium-zoom', '@vuepress/back-to-top', '@vuepress-reco/extract-code'],
 }
