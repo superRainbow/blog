@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
     title: '金魚腦的學習筆記',
     description: '資訊爆炸的年代，邊學邊記是標配',
@@ -43,6 +45,14 @@ module.exports = {
         author: '金魚腦',
         authorAvatar: '/logo.jpg',
         startYear: '2021',
+        vssueConfig: {
+            platform: 'github',
+            owner: 'superRainbow',
+            repo: 'blog',
+            clientId: process.env.CLIENT_ID,
+            clientSecret: process.env.CLIENT_SECRET,
+            locale: 'en'
+        }
     },
     markdown: {
         lineNumbers: true,
