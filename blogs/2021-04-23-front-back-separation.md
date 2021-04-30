@@ -24,7 +24,7 @@ tags:
 不存在單純的 html 檔，後端與 html 的邏輯會混在一起<br>
 (開啟前端頁面看的到由後端控制的邏輯)<br>
 
-![](http://ithelp.ithome.com.tw/upload/images/20161227/20091346Py2cED8s53.png)
+![](http://ithelp.ithome.com.tw/upload/images/20161227/20091346Py2cED8s53.png =500x) <br>
 _來源：[你走你的陽關道，我走我的獨木橋：前後端分離](https://ithelp.ithome.com.tw/articles/10187675)_
 
 ### 缺點
@@ -49,7 +49,7 @@ Browser 發送請求到前端，由前端控制導頁與渲染<br>
 
 前後分離不僅能減少後端 Server 壓力、人數乘載提高、頁面渲染也更快，用戶體驗更好
 
-![](http://ithelp.ithome.com.tw/upload/images/20161227/20091346IoKPoVChyF.png)
+![](http://ithelp.ithome.com.tw/upload/images/20161227/20091346IoKPoVChyF.png =500x) <br>
 _來源：[你走你的陽關道，我走我的獨木橋：前後端分離](https://ithelp.ithome.com.tw/articles/10187675)_
 
 ### 優點
@@ -98,8 +98,8 @@ Bootstrap 5 不再使用 jQuery，這也代表 jQuery 不在那麼主流
 
 #### 補充：
 
-目前 ASP.NET Core 開啟新專案就有使用前端框架的選擇
-![](https://i.imgur.com/mpOEd9E.png)
+目前 ASP.NET Core 開啟新專案就有使用前端框架的選擇 <br>
+![](https://i.imgur.com/mpOEd9E.png =500x)
 
 ## 總結
 
