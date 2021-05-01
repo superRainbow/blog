@@ -12,19 +12,22 @@ tags:
 
 ## 前言
 
-最近工作上準備與廠商接洽新專案的專案架構，<br>
-但廠商給了一個前後不分離與使用 jQuery 的架構<br>
-這讓我跟同事們不得不先準備一下資料來好好跟廠商討論 ~~打臉~~<br>
+::: tip
+最近工作上準備與廠商接洽新專案的專案架構，
+
+但廠商給了一個前後不分離與使用 jQuery 的架構...
+不得不先準備一下資料來好好跟廠商討論 ~~打臉~~ 
+:::
 
 ## 前後端不分離
 
 ### 簡介
 
-這是早期網頁開發的做法<br>
-不存在單純的 html 檔，後端與 html 的邏輯會混在一起<br>
-(開啟前端頁面看的到由後端控制的邏輯)<br>
+這是早期網頁開發的做法 
+不存在單純的 html 檔，後端與 html 的邏輯會混在一起 
+(開啟前端頁面看的到由後端控制的邏輯) 
 
-![](http://ithelp.ithome.com.tw/upload/images/20161227/20091346Py2cED8s53.png =500x) <br>
+![](http://ithelp.ithome.com.tw/upload/images/20161227/20091346Py2cED8s53.png =500x)  
 _來源：[你走你的陽關道，我走我的獨木橋：前後端分離](https://ithelp.ithome.com.tw/articles/10187675)_
 
 ### 缺點
@@ -40,16 +43,16 @@ _來源：[你走你的陽關道，我走我的獨木橋：前後端分離](http
 
 ### 簡介
 
-Browser 發送請求到前端，由前端控制導頁與渲染<br>
-經由 AJAX 向後端 Restful API 發送請求，獲取數據<br>
+Browser 發送請求到前端，由前端控制導頁與渲染，
+經由 AJAX 向後端 Restful API 發送請求，獲取數據 
 
-後端只負責業務邏輯與數據傳輸<br>
-採用 JSON 格式，比 XML 簡潔且效能更好<br>
-後端開發人員專注在後端的邏輯與資料處理<br>
+後端只負責業務邏輯與數據傳輸，
+採用 JSON 格式，比 XML 簡潔且效能更好～
+(後端開發人員專注在後端的邏輯與資料處理)
 
-前後分離不僅能減少後端 Server 壓力、人數乘載提高、頁面渲染也更快，用戶體驗更好
+前後分離不僅能減少 Server 壓力、加速頁面渲染、用戶體驗更好
 
-![](http://ithelp.ithome.com.tw/upload/images/20161227/20091346IoKPoVChyF.png =500x) <br>
+![](http://ithelp.ithome.com.tw/upload/images/20161227/20091346IoKPoVChyF.png =500x)  
 _來源：[你走你的陽關道，我走我的獨木橋：前後端分離](https://ithelp.ithome.com.tw/articles/10187675)_
 
 ### 優點
@@ -98,7 +101,7 @@ Bootstrap 5 不再使用 jQuery，這也代表 jQuery 不在那麼主流
 
 #### 補充：
 
-目前 ASP.NET Core 開啟新專案就有使用前端框架的選擇 <br>
+目前 ASP.NET Core 開啟新專案就有使用前端框架的選擇  
 ![](https://i.imgur.com/mpOEd9E.png =500x)
 
 ## 總結
